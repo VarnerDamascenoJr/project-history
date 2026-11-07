@@ -17,7 +17,7 @@ A BTC/USD limit-order exchange built to explore financial correctness, transacti
 | [September 2026](2026-09.md) | Project identity and documentation cleanup |
 | [October 2026](2026-10.md) | Repository boundaries, financial precision, matching concurrency, durable retries, and isolated testing |
 | [November 2026](2026-11.md) | QA and dependency fixes, matching recovery, monetary invariants, and wallet balance breakdown |
-| [Completed activities](completed-activities.md) | The initial import's 8 completed BE records, 95 SEC records, and original dated backlog notes |
+| [Completed activities](completed-activities/README.md) | The initial import's 103 completed records and original evidence, organized into four broad areas |
 
 ## Technical context
 

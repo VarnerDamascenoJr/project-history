@@ -21,10 +21,15 @@ project-history/
     ├── 2026-09.md
     ├── 2026-10.md
     ├── 2026-11.md
-    └── completed-activities.md
+    └── completed-activities/
+        ├── README.md
+        ├── backend.md
+        ├── application-security.md
+        ├── dependencies-and-tooling.md
+        └── validation-and-publication.md
 ```
 
-Only months with recorded work have a journal. Each project uses the same small structure: an overview, monthly entries, and an activity archive when needed.
+Only months with recorded work have a journal. Each project uses the same small structure: an overview, monthly entries, and an activity archive when needed. Organize growing archives into a folder with a short index and four broad areas: backend, application security, dependencies and tooling, and validation and publication. Specific problems belong in sections within those areas.
 
 ## Writing conventions
 

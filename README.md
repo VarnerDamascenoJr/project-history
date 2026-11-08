@@ -9,27 +9,34 @@ Start with a project overview, then follow its monthly journal. Detailed activit
 | Project | Description | Recorded period | Latest delivery |
 | --- | --- | --- | --- |
 | [Exchange Matching](exchange-matching/README.md) | BTC/USD exchange with a separate API and matching worker | July–November 2026 | Available, reserved, and total wallet balances, merged on November 6 |
+| [React Dash](react-dash/README.md) | Frontend-only Sales Event analytics dashboard with fixture/API loading and browser exports | October 2023–November 2026 | Optional Sales API evidence automation, merged on November 4 |
 
 ## Organization
 
 ```text
 project-history/
 ├── README.md
-└── exchange-matching/
+├── exchange-matching/
+│   ├── README.md
+│   ├── YYYY-MM.md
+│   └── completed-activities/
+│       ├── README.md
+│       ├── backend.md
+│       ├── application-security.md
+│       ├── dependencies-and-tooling.md
+│       └── validation-and-publication.md
+└── react-dash/
     ├── README.md
-    ├── 2026-07.md
-    ├── 2026-09.md
-    ├── 2026-10.md
-    ├── 2026-11.md
+    ├── YYYY-MM.md
     └── completed-activities/
         ├── README.md
-        ├── backend.md
+        ├── frontend.md
         ├── application-security.md
         ├── dependencies-and-tooling.md
         └── validation-and-publication.md
 ```
 
-Only months with recorded work have a journal. Each project uses the same small structure: an overview, monthly entries, and an activity archive when needed. Organize growing archives into a folder with a short index and four broad areas: backend, application security, dependencies and tooling, and validation and publication. Specific problems belong in sections within those areas.
+Only months with recorded work have a journal. Each project uses the same small structure: an overview, monthly entries, and an activity archive when needed. Organize growing archives into a folder with a short index and four broad areas: backend or frontend according to the project, application security, dependencies and tooling, and validation and publication. Specific problems belong in sections within those areas.
 
 ## Writing conventions
 
@@ -62,6 +69,8 @@ A new entry can be as small as:
 Prepared on **2026-11-02** from the local Exchange Matching Git history, its local backlog, repository documentation, and existing validation reports. Earlier entries reconstructed from Git are identified as retrospective summaries.
 
 Updated on **2026-11-07** through Exchange Matching PR #39, including the matching recovery and monetary invariant deliveries in PRs #37 and #38. The update uses the pulled source history, committed documentation, and GitHub PR descriptions and check results; it does not rerun application validation.
+
+React Dash was imported on **2026-11-07** through source commit `fa02c9d`, covering the available history from October 2023 and all 34 merged PRs. The import distinguishes intermediate-branch merges, main integration dates, reported validation, and simulated API evidence. No application validation was rerun.
 
 The initial import was prepared as a **local draft for review**. On **2026-11-07**, the owner created the [public remote repository](https://github.com/VarnerDamascenoJr/project-history), configured it as `origin`, and authorized the initial commits, one file per commit, on `docs/exchange-matching-history`.
 

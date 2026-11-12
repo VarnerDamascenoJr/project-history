@@ -10,6 +10,7 @@ Start with a project overview, then follow its monthly journal. Detailed activit
 | --- | --- | --- | --- |
 | [Exchange Matching](exchange-matching/README.md) | BTC/USD exchange with a separate API and matching worker | July–November 2026 | Available, reserved, and total wallet balances, merged on November 6 |
 | [React Dash](react-dash/README.md) | Frontend-only Sales Event analytics dashboard with fixture/API loading and browser exports | October 2023–November 2026 | Optional Sales API evidence automation, merged on November 4 |
+| [Sales Event](sales-event-project/README.md) | Event-driven ticket sales backend with payments, ticket delivery, observability, and analytics exports | May–October 2026 | Analytics database exporter refactor and coverage, merged on October 14 |
 
 ## Organization
 
@@ -25,12 +26,21 @@ project-history/
 │       ├── application-security.md
 │       ├── dependencies-and-tooling.md
 │       └── validation-and-publication.md
-└── react-dash/
+├── react-dash/
+│   ├── README.md
+│   ├── YYYY-MM.md
+│   └── completed-activities/
+│       ├── README.md
+│       ├── frontend.md
+│       ├── application-security.md
+│       ├── dependencies-and-tooling.md
+│       └── validation-and-publication.md
+└── sales-event-project/
     ├── README.md
     ├── YYYY-MM.md
     └── completed-activities/
         ├── README.md
-        ├── frontend.md
+        ├── backend.md
         ├── application-security.md
         ├── dependencies-and-tooling.md
         └── validation-and-publication.md
@@ -71,6 +81,8 @@ Prepared on **2026-11-02** from the local Exchange Matching Git history, its loc
 Updated on **2026-11-07** through Exchange Matching PR #39, including the matching recovery and monetary invariant deliveries in PRs #37 and #38. The update uses the pulled source history, committed documentation, and GitHub PR descriptions and check results; it does not rerun application validation.
 
 React Dash was imported on **2026-11-07** through source commit `fa02c9d`, covering the available history from October 2023 and all 34 merged PRs. The import distinguishes intermediate-branch merges, main integration dates, reported validation, and simulated API evidence. No application validation was rerun.
+
+Sales Event was collected on **2026-11-10** through source commit `d542ee3`, covering May–October 2026 and all **36 merged PRs**. Its archive includes the complete integration register with dates, commits, and available checks, distinguishes closed PR #15 from direct CI commits, and maps the original P1/P4/P5, S1, and CFX identifiers to their source-owned deliveries. Prepared as a local draft on `docs/sales-event-project-history`, the addition was authorized for publication with one file per commit and a review PR on **2026-11-11**. No application validation was rerun.
 
 The initial import was prepared as a **local draft for review**. On **2026-11-07**, the owner created the [public remote repository](https://github.com/VarnerDamascenoJr/project-history), configured it as `origin`, and authorized the initial commits, one file per commit, on `docs/exchange-matching-history`.
 

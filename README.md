@@ -12,6 +12,7 @@ Start with a project overview, then follow its monthly journal. Detailed activit
 | [React Dash](react-dash/README.md) | Frontend-only Sales Event analytics dashboard with fixture/API loading and browser exports | October 2023–November 2026 | Optional Sales API evidence automation, merged on November 4 |
 | [Sales Event](sales-event-project/README.md) | Event-driven ticket sales backend with payments, ticket delivery, observability, and analytics exports | May–October 2026 | Analytics database exporter refactor and coverage, merged on October 14 |
 | [OptiFlow](OptiFlow/README.md) | Delivery optimization and statistical decision engine with heuristics, OR-Tools, and a local API | August–November 2026 | Modular NestJS backend, merged on November 13 |
+| [Operational Observability Platform](operational-observability-platform/README.md) | Local telemetry control plane with SLOs, incident investigation, and statistical risk views | August–October 2026 | Operational risk forecast, merged on October 5 |
 
 ## Organization
 
@@ -45,7 +46,16 @@ project-history/
 │       ├── application-security.md
 │       ├── dependencies-and-tooling.md
 │       └── validation-and-publication.md
-└── OptiFlow/
+├── OptiFlow/
+│   ├── README.md
+│   ├── YYYY-MM.md
+│   └── completed-activities/
+│       ├── README.md
+│       ├── backend.md
+│       ├── application-security.md
+│       ├── dependencies-and-tooling.md
+│       └── validation-and-publication.md
+└── operational-observability-platform/
     ├── README.md
     ├── YYYY-MM.md
     └── completed-activities/
@@ -95,6 +105,8 @@ React Dash was imported on **2026-11-07** through source commit `fa02c9d`, cover
 Sales Event was collected on **2026-11-10** through source commit `d542ee3`, covering May–October 2026 and all **36 merged PRs**. Its archive includes the complete integration register with dates, commits, and available checks, distinguishes closed PR #15 from direct CI commits, and maps the original P1/P4/P5, S1, and CFX identifiers to their source-owned deliveries. Prepared as a local draft on `docs/sales-event-project-history`, the addition was authorized for publication with one file per commit and a review PR on **2026-11-11**. No application validation was rerun.
 
 OptiFlow was collected on **2026-11-14** through source commit `b96520f`, covering August–November 2026 and all **63 merged PRs**. The register distinguishes 57 PR integrations in the main baseline from six intermediate-branch merges, the reverted domain experiment, source-owned portfolio updates, and dated validation/study limits. No application validation was rerun.
+
+Operational Observability Platform was collected on **2026-11-15** through source commit `53ec569`, covering August–October 2026 and all **31 PR records**: 29 main integrations, one branch-only merge, and one closed proposal. Its history preserves the successful latest PR check alongside the failed main telemetry-smoke run and keeps original checklist/backlog statuses. No application validation was rerun.
 
 The initial import was prepared as a **local draft for review**. On **2026-11-07**, the owner created the [public remote repository](https://github.com/VarnerDamascenoJr/project-history), configured it as `origin`, and authorized the initial commits, one file per commit, on `docs/exchange-matching-history`.
 
